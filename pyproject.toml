@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mongodb-vector-playground"
+version = "0.1.0"
+description = ""
+authors = ["vikyw89 <vikyw89@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
